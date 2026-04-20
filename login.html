@@ -1,0 +1,91 @@
+
+<html >
+<head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login - Phidim Secondary School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login-container {
+            background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), 
+                        url('https://media.edusanjal.com/gallery/Phidim_School.jpg') center/cover;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-box {
+            background: white;
+            max-width: 420px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+ <img src="https://media.edusanjal.com/__sized__/logos/logo_snQSSES-thumbnail-200x200.png"width=100 height=200>
+
+                <div>
+               
+                <div>
+                    <h1 class="school-name">Phidim Secondary School</h1>
+                   
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="programs.html" class="nav-link">Programs</a>
+                <a href="notices.html" class="nav-link">Notices</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <button onclick="window.location.href='login.html'" class="login-btn">Student Login</button>
+            <button class="md:hidden text-3xl menu-btn">☰</button>
+        </div>
+    </header>
+
+    <!-- LOGIN SECTION -->
+    <div class="login-container">
+        <div class="login-box p-10">
+            <div class="text-center mb-8">
+               
+                <h2 class="text-3xl font-bold text-[#003087]">Student Login</h2>
+                <p class="text-gray-600 mt-2"></p>
+            </div>
+
+            <form id="loginForm">
+                <div class="mb-6">
+                    <label class="block text-sm font-medium mb-2">Student ID / Username</label>
+                    <input type="text" id="username" 
+                           class="w-full px-5 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-[#003087] text-lg"
+                           placeholder="Niraj Subedi" required>
+                </div>
+
+                <div class="mb-6">
+                    <label class="block text-sm font-medium mb-2">Password</label>
+                    <input type="password" id="password" 
+                           class="w-full px-5 py-4 border border-gray-300 rounded-2xl focus:outline-none focus:border-[#003087] text-lg"
+                           placeholder="••••••••" required>
+                </div>
+
+                
+
+                <button type="submit"
+                        class="w-full bg-[#DA291C] hover:bg-red-700 text-white py-5 rounded-2xl text-xl font-medium transition">
+                    Login Now
+                </button>
+            </form>
+
+        
+
+    </body>
+</html>

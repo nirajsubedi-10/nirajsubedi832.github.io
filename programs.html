@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Phidim Secondary School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+    .program-table {
+        width: 300%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+        table-layout: fixed;   /* Helps columns stay equal */
+    }
+    
+    .program-table th, 
+    .program-table td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        vertical-align: top;
+        text-align: left;
+    }
+    
+    .program-table th {
+        background-color: #f4f4f4;
+        font-size: 1.1em;
+        text-align: center;
+    }
+    
+    .program-table td {
+        width: 33.33%;   /* Makes 3 equal columns */
+    }
+    
+    .program-table ul {
+        padding-left: 20px;
+        margin: 8px 0 0 0;
+    }
+    
+    .program-table strong {
+        color: #333;
+    }
+</style>
+
+</head>
+<body>
+
+
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+               <img src="https://media.edusanjal.com/__sized__/logos/logo_snQSSES-thumbnail-200x200.png"width=100 height=200>
+
+                <div>
+                    <h1 class="school-name">Phidim Secondary School</h1>
+                    
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="aboutus.html" class="nav-link">About Us</a>
+                <a href="programs.html" class="nav-link active">Programs</a>
+                <a href="notices.html" class="nav-link">Notices</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+           <a href="login.html" class="login-btn">Student Login</a>            <button class="md:hidden text-3xl menu-btn">☰</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-bg" style="background-image: linear-gradient(rgba(0,48,135,0.8), rgba(0,48,135,0.8)), url('https://picsum.photos/id/1016/1920/1080');">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="hero-title">Our Programs</h2>
+          
+            <p class="hero-text">From Grade 1 to 12 • Science, Management &amp; More</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Program Card 1 -->
+           <table class="program-table">
+    <thead>
+        <tr>
+            <th>Science Stream</th>
+            <th>Management Stream</th>
+            <th>Education & Humanities</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- Science Stream -->
+            <td>
+                <strong>Subjects:</strong><br>
+                Physics, Chemistry, Biology, Mathematics + Computer Science<br><br>
+                <strong>Ideal for:</strong> Future doctors, engineers & researchers<br><br>
+                <strong>Level:</strong> Grade 11-12 (10+2)<br><br>
+                <strong>Key Features:</strong>
+                <ul>
+                    <li>Well-equipped labs</li>
+                    <li>Extra practical classes</li>
+                </ul>
+            </td>
+
+            <!-- Management Stream -->
+            <td>
+                <strong>Subjects:</strong><br>
+                Accountancy, Economics, Business Studies, Marketing & Hotel Management<br><br>
+                <strong>Ideal for:</strong> Future entrepreneurs & managers<br><br>
+                <strong>Level:</strong> Grade 11-12 (10+2)<br><br>
+                <strong>Key Features:</strong>
+                <ul>
+                    <li>Project-based learning</li>
+                    <li>Industrial visits</li>
+                </ul>
+            </td>
+
+            <!-- Education & Humanities -->
+            <td>
+                <strong>Subjects:</strong><br>
+                Nepali, English, Social Studies, Population & Health Education<br><br>
+                <strong>Ideal for:</strong> Future teachers & civil service aspirants<br><br>
+                <strong>Level:</strong> Grade 11-12 (10+2)<br><br>
+                <strong>Key Features:</strong>
+                <ul>
+                    <li>Debate & public speaking</li>
+                    <li>Cultural programs</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+           
+   
+</body>
+</html>
+
